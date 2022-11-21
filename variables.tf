@@ -1,6 +1,6 @@
 variable "region" {
   type =string
-  default = "ap-south-1"
+  default = "us-east-2"
   
 }
 
@@ -8,26 +8,26 @@ variable "subnet_id_1" {
 
   type = string
 
-  default = "subnet-03bf5faee908d1a2f"
+  default = "subnet-05a75a051010bb46a"
 
  }
  variable "subnet_id_2" {
 
   type = string
 
-  default = "subnet-04acc33d07237005f"
+  default = "subnet-0a40d816e306b37d6"
 
  }
  variable "subnet_id_3" {
   
   type = string
 
-  default = "subnet-0c887fd14fad52374"
+  default = "subnet-015357dfc84cc91c6"
 
  }
 
  variable "vpc_id" {
   type = string
-  default = "vpc-0b9f2a5f7910d550b"
+  default = "vpc-0f65aac6d4c68cad4"
    
  }
